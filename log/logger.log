@@ -2170,3 +2170,57 @@ Caused by: org.hibernate.HibernateException: Unable to determine Dialect without
 2024-07-30T11:21:28.348+01:00  INFO 5480 --- [NeonTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-07-30T11:21:28.365+01:00  INFO 5480 --- [NeonTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-07-30T11:21:28.426+01:00  INFO 5480 --- [NeonTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-30T14:10:12.678+01:00  INFO 18416 --- [NeonTest] [main] d.c.NeonTest.NeonTestApplicationTests    : Starting NeonTestApplicationTests using Java 22.0.1 with PID 18416 (started by ETC in C:\Users\ETC\Desktop\Mag_portfolio\NeonTest)
+2024-07-30T14:10:12.678+01:00  INFO 18416 --- [NeonTest] [main] d.c.NeonTest.NeonTestApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-07-30T14:10:15.351+01:00  INFO 18416 --- [NeonTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-30T14:10:15.561+01:00  INFO 18416 --- [NeonTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 170 ms. Found 1 JPA repository interface.
+2024-07-30T14:10:17.502+01:00  INFO 18416 --- [NeonTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-30T14:10:17.832+01:00  INFO 18416 --- [NeonTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-30T14:10:17.946+01:00  INFO 18416 --- [NeonTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-30T14:10:19.452+01:00  INFO 18416 --- [NeonTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-30T14:10:19.578+01:00  INFO 18416 --- [NeonTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-30T14:10:23.583+01:00  INFO 18416 --- [NeonTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@24aedcc5
+2024-07-30T14:10:23.583+01:00  INFO 18416 --- [NeonTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-30T14:10:27.563+01:00  INFO 18416 --- [NeonTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-30T14:10:28.598+01:00  INFO 18416 --- [NeonTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-30T14:10:30.669+01:00  WARN 18416 --- [NeonTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-30T14:10:33.521+01:00  INFO 18416 --- [NeonTest] [main] d.c.NeonTest.NeonTestApplicationTests    : Started NeonTestApplicationTests in 22.476 seconds (process running for 26.361)
+2024-07-30T14:10:36.110+01:00  INFO 18416 --- [NeonTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-30T14:10:36.125+01:00  INFO 18416 --- [NeonTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-30T14:10:37.900+01:00  INFO 18416 --- [NeonTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-30T15:31:58.224+01:00  INFO 2300 --- [NeonTest] [main] d.c.NeonTest.NeonTestApplicationTests    : Starting NeonTestApplicationTests using Java 22.0.1 with PID 2300 (started by ETC in C:\Users\ETC\Desktop\Mag_portfolio\NeonTest)
+2024-07-30T15:31:58.240+01:00  INFO 2300 --- [NeonTest] [main] d.c.NeonTest.NeonTestApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-07-30T15:32:00.375+01:00  INFO 2300 --- [NeonTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-30T15:32:00.547+01:00  INFO 2300 --- [NeonTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 136 ms. Found 1 JPA repository interface.
+2024-07-30T15:32:01.836+01:00  INFO 2300 --- [NeonTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-30T15:32:02.056+01:00  INFO 2300 --- [NeonTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-30T15:32:02.150+01:00  INFO 2300 --- [NeonTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-30T15:32:03.218+01:00  INFO 2300 --- [NeonTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-30T15:32:03.296+01:00  INFO 2300 --- [NeonTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-30T15:32:07.993+01:00  INFO 2300 --- [NeonTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4005e485
+2024-07-30T15:32:08.008+01:00  INFO 2300 --- [NeonTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-30T15:32:13.460+01:00  INFO 2300 --- [NeonTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-30T15:32:20.886+01:00  INFO 2300 --- [NeonTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-30T15:32:21.957+01:00  WARN 2300 --- [NeonTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-30T15:32:22.946+01:00  INFO 2300 --- [NeonTest] [main] d.c.NeonTest.NeonTestApplicationTests    : Started NeonTestApplicationTests in 25.797 seconds (process running for 28.679)
+2024-07-30T15:32:24.029+01:00  INFO 2300 --- [NeonTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-30T15:32:24.029+01:00  INFO 2300 --- [NeonTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-30T15:32:25.583+01:00  INFO 2300 --- [NeonTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-30T15:44:26.488+01:00  INFO 15148 --- [NeonTest] [main] d.c.NeonTest.NeonTestApplicationTests    : Starting NeonTestApplicationTests using Java 22.0.1 with PID 15148 (started by ETC in C:\Users\ETC\Desktop\Mag_portfolio\NeonTest)
+2024-07-30T15:44:26.488+01:00  INFO 15148 --- [NeonTest] [main] d.c.NeonTest.NeonTestApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-07-30T15:44:28.484+01:00  INFO 15148 --- [NeonTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-30T15:44:28.641+01:00  INFO 15148 --- [NeonTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127 ms. Found 1 JPA repository interface.
+2024-07-30T15:44:29.725+01:00  INFO 15148 --- [NeonTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-30T15:44:29.897+01:00  INFO 15148 --- [NeonTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-30T15:44:29.992+01:00  INFO 15148 --- [NeonTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-30T15:44:30.867+01:00  INFO 15148 --- [NeonTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-30T15:44:30.918+01:00  INFO 15148 --- [NeonTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-30T15:44:34.415+01:00  INFO 15148 --- [NeonTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e517c9e
+2024-07-30T15:44:34.415+01:00  INFO 15148 --- [NeonTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-30T15:44:37.493+01:00  INFO 15148 --- [NeonTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-30T15:44:38.405+01:00  INFO 15148 --- [NeonTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-30T15:44:39.330+01:00  WARN 15148 --- [NeonTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-30T15:44:40.287+01:00  INFO 15148 --- [NeonTest] [main] d.c.NeonTest.NeonTestApplicationTests    : Started NeonTestApplicationTests in 14.807 seconds (process running for 17.34)
+2024-07-30T15:44:41.632+01:00  INFO 15148 --- [NeonTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-30T15:44:41.632+01:00  INFO 15148 --- [NeonTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-30T15:44:42.590+01:00  INFO 15148 --- [NeonTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
